@@ -31,7 +31,8 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2015 - 2018",
     location: "Deoghar, Jharkhand",
-    description: "completed my 12th grade with a focus on Science. During this time, I developed a strong foundation in mathematics, Physics, Chemistry",
+    description:
+      "completed my 12th grade with a focus on Science. During this time, I developed a strong foundation in mathematics, Physics, Chemistry",
   },
   {
     title: "Matriculation Education",
@@ -41,7 +42,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2014 - 2015",
     location: "Palojori, Jharkhand",
-    description: "Completed my 10th grade with a strong academic record, It laid the groundwork for my future pursuits in web development and programming. Learned good values,dedication and disciplne.",
+    description:
+      "Completed my 10th grade with a strong academic record, It laid the groundwork for my future pursuits in web development and programming. Learned good values,dedication and disciplne.",
   },
 ];
-

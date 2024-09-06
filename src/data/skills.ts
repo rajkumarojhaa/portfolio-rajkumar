@@ -1,15 +1,5 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { SiExpress, SiSocketdotio, SiNextdotjs } from "react-icons/si";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -33,7 +23,6 @@ import NodejsSvg from "@/public/icons/nodejs.svg";
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import MySQLSvg from "@/public/icons/mysql.svg";
 
-
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 
@@ -54,7 +43,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Javascript",
         icon: JavascriptSvg,
-      }
+      },
     ],
   },
   {
@@ -87,7 +76,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Vite",
         icon: ViteSvg,
-      }
+      },
     ],
   },
   {
@@ -104,7 +93,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Socket.io",
         icon: SiSocketdotio,
-      }
+      },
     ],
   },
   {
@@ -117,7 +106,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MySQL",
         icon: MySQLSvg,
-      }
+      },
     ],
   },
   {

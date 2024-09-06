@@ -7,7 +7,15 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Job Scan",
     href: "/projects",
-    tags: ["Reactjs", "Tailwindcss", "Vite","MongoDB", "Render", "React-router-dom", "Redux",],
+    tags: [
+      "Reactjs",
+      "Tailwindcss",
+      "Vite",
+      "MongoDB",
+      "Render",
+      "React-router-dom",
+      "Redux",
+    ],
     image: {
       LIGHT: "/images/projects/jobScan.png",
       DARK: "/images/projects/jobScan2.png",
@@ -47,10 +55,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Job Scan",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jobScan.png",
-      "/images/projects/jobScan2.png",
-    ],
+    imageUrl: ["/images/projects/jobScan.png", "/images/projects/jobScan2.png"],
     description:
       "Job Scan is a MERN stack-based web application designed for students and recruiters. Students can register or log in to search for jobs and apply, while recruiters can create accounts to post job listings and manage their postings efficiently. The platform streamlines the job search and hiring process, offering a user-friendly interface for both students and recruiters.",
     sourceCodeHref: "https://github.com/rajkumarojhaa/Job-Scan",
@@ -100,11 +105,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: [
       "/images/projects/weather1.png",
       "/images/projects/weather2.png",
-     
     ],
     description:
       "Stay updated with the latest weather conditions with our sleek and intuitive Weather App. Featuring a dynamic background that changes based on current weather conditions, the app provides real-time weather forecasts for any city and state. It includes a search function with suggestions.",
     sourceCodeHref: "https://github.com/rajkumarojhaa/Weather-React",
     liveWebsiteHref: "https://weather-react-azure.vercel.app/",
-  }
+  },
 ];
